@@ -2,7 +2,7 @@
 
 ## Fundamental endimensionell array
 
-<ul">
+<ul>
   <li><a href="https://github.com/1dv024/exercise-fundamental-one-dimentional-array">https://github.com/1dv024/exercise-fundamental-one-dimentional-array</a></li>
 </ul>
 
