@@ -1,6 +1,6 @@
-#<i class="fa fa-flask"></i> Lösningsförslag
+# Lösningsförslag
 
-##<i class="fa fa-laptop"></i> Fundamental endimensionell array
+## Fundamental endimensionell array
 
 <ul class="fa-ul fa-border exercise-info">
   <li><i class="fa-li fa fa-github"></i><a href="https://github.com/1dv024/exercise-fundamental-one-dimentional-array">https://github.com/1dv024/exercise-fundamental-one-dimentional-array</a></li>
