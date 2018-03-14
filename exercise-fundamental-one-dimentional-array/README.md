@@ -2,8 +2,8 @@
 
 ## Fundamental endimensionell array
 
-<ul class="fa-ul fa-border exercise-info">
-  <li><i class="fa-li fa fa-github"></i><a href="https://github.com/1dv024/exercise-fundamental-one-dimentional-array">https://github.com/1dv024/exercise-fundamental-one-dimentional-array</a></li>
+<ul">
+  <li><a href="https://github.com/1dv024/exercise-fundamental-one-dimentional-array">https://github.com/1dv024/exercise-fundamental-one-dimentional-array</a></li>
 </ul>
 
 ### Diskussion
