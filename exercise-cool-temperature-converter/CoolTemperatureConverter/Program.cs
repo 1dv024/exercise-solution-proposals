@@ -25,9 +25,6 @@ namespace CoolTemperatureConverter
 
             // Display the result.
             Console.WriteLine($"Temperaturen {fahrenheit} °F motsvarar {celsius:f1} °C.");
-
-            Console.Write(Environment.NewLine + "Press any key to continue . . .");
-            Console.ReadKey();
         }
     }
 }
