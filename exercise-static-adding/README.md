@@ -1,10 +1,8 @@
-#<i class="fa fa-flask"></i> Lösningsförslag
+# Lösningsförslag
 
-##<i class="fa fa-laptop"></i> Statisk addition
+## Statisk addition
 
-<ul class="fa-ul fa-border exercise-info">
-  <li><i class="fa-li fa fa-github"></i><a href="https://github.com/1dv024/exercise-static-adding">https://github.com/1dv024/exercise-static-adding</a></li>
-</ul>
+- [Gitbook](https://coursepress.gitbooks.io/objektorienterad-programmering-1dv024/content/ovningsuppgifter/statisk-addition/)
 
 ### Diskussion
 
