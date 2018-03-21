@@ -19,8 +19,7 @@ namespace LastMessageFromTitanic
                 // Open the text file, passed to the application, and
                 // read it line by line. Convert each line from text
                 // to Morse codes and play the codes.
-                using (var file = File.OpenRead(args[0]))
-                using (var reader = new StreamReader(file))
+                using (var reader = new StreamReader(args[0]))
                 {
                     var morseCode = new MorseCode();
                     string line;
