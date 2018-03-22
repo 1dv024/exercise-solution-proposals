@@ -13,7 +13,6 @@ namespace PersonalCheckDigit
         public void Run()
         {
             var pid = new PersonalIdentityNumber("19990612-6074");
-
             Render(pid, " 19990612-6074");
 
             pid.Number = "990612-6074";
@@ -74,7 +73,7 @@ namespace PersonalCheckDigit
             }
             finally
             {
-                Console.WriteLine($"ToString (short): {pid.ToString("d")}");
+                Console.WriteLine($"ToString (short): {pid.ToString("y")}");
                 Console.WriteLine($"ToString:         {pid}");
                 Console.WriteLine();
             }
