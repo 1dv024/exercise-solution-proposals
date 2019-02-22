@@ -1,20 +1,18 @@
-# <i class="fa fa-flask"></i> Lösningsförslag
+ Lösningsförslag
 
-## <i class="fa fa-laptop"></i> Ordmekanikern
+## Uppgift
 
-<ul class="fa-ul fa-border exercise-info">
-<li><i class="fa-li fa fa-github"></i><a href="https://github.com/1dv024/exercise-word-mechanic">https://github.com/1dv024/exercise-word-mechanic</a></li>
-</ul>
+[Ordmekanikern](https://coursepress.gitbook.io/1dv024/ovningsuppgifter/del-1/ordmekanikern)
 
-### Diskussion
+## Diskussion
 
-#### Lösning med Dictionary
+### Lösning med Dictionary
 
 ```c#
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace SimplestWordFrequencyAnalyzer
+namespace WordMechanic.Dictionary
 {
     /// <summary>
     /// Represents a text analyser.
@@ -91,7 +89,7 @@ namespace SimplestWordFrequencyAnalyzer
 }
 ```
 
-#### Lösning med LINQ
+### Lösning med LINQ
 
 ```c#
 using System.Collections.Generic;
@@ -140,5 +138,3 @@ namespace WordMechanic
     }
 }
 ```
-
-...

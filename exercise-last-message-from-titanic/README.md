@@ -1,12 +1,10 @@
-# <i class="fa fa-flask"></i> Lösningsförslag
+# Lösningsförslag
 
-## <i class="fa fa-laptop"></i> Sista meddelandet från Titanic
+## Uppgift
 
-<ul class="fa-ul fa-border exercise-info">
-<li><i class="fa-li fa fa-github"></i><a href="https://github.com/1dv024/exercise-last-message-from-titanic">https://github.com/1dv024/exercise-last-message-from-titanic</a></li>
-</ul>
+[Sista meddelandet från Titanic](https://coursepress.gitbook.io/1dv024/ovningsuppgifter/del-1/sista-meddelandet-fran-titanic)
 
-### Diskussion
+## Diskussion
 
 ```c#
 using System;
