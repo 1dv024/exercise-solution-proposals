@@ -21,7 +21,7 @@ namespace ConsolingBank
         /// Initializes a new instance of the Account class.
         /// </summary>
         /// <param name="name">The name of the account holder.</param>
-        /// <param name="accountNUmber">The number identifing the account.</param>
+        /// <param name="accountNUmber">The number identifying the account.</param>
         /// <param name="balance">The balance of the account.</param>
         public Account(string name, int accountNUmber, double balance)
         {
@@ -31,7 +31,7 @@ namespace ConsolingBank
         }
 
         /// <summary>
-        /// The number identifing the account.
+        /// The number identifying the account.
         /// </summary>
         public int AccountNumber { get; }
 
@@ -75,7 +75,7 @@ namespace ConsolingBank
         }
 
         /// <summary>
-        /// Whithdraws money from the account and returning the new balance.
+        /// Withdraws money from the account and returning the new balance.
         /// </summary>
         /// <param name="amount">The amount of money to withdraw.</param>
         /// <param name="fee">The withdrawal fee.</param>

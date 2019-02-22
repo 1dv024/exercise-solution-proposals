@@ -1,14 +1,12 @@
-# <i class="fa fa-flask"></i> Lösningsförslag
+# Lösningsförslag
 
-## <i class="fa fa-laptop"></i> Personlig kontrollsiffra
+## Uppgift
 
-<ul class="fa-ul fa-border exercise-info">
-<li><i class="fa-li fa fa-github"></i><a href="https://github.com/1dv024/exercise-word-mechanic">https://github.com/1dv024/exercise-word-mechanic</a></li>
-</ul>
+[Personlig kontrollsiffra](https://coursepress.gitbook.io/1dv024/ovningsuppgifter/del-2/personlig-kontrollsiffra)
 
-### Diskussion
+## Diskussion
 
-#### PersonalIdentityNumber.cs
+### PersonalIdentityNumber.cs
 
 ```c#
 using System;
@@ -146,10 +144,10 @@ namespace PersonalCheckDigit
         ///     string. If format is null or an empty string, the format specifier, 'Y', is used.
         ///     <list type="bullet">
         ///         <item>
-        ///             Getting a string where the birtdate is specified by eight digits. To do this, use the "Y" format specifier.
+        ///             Getting a string where the birthdate is specified by eight digits. To do this, use the "Y" format specifier.
         ///         </item>
         ///         <item>
-        ///             Getting a string where the birtdate is specified by six digits. To do this, use the "y" format specifier.
+        ///             Getting a string where the birthdate is specified by six digits. To do this, use the "y" format specifier.
         ///         </item>
         ///         <item>
         ///             Getting a string where the personal identity number is unformatted. To do this, use the "g" format

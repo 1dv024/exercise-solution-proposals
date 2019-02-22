@@ -1,14 +1,12 @@
-# <i class="fa fa-flask"></i> Lösningsförslag
+# Lösningsförslag
 
-## <i class="fa fa-laptop"></i> Repeterbara citat
+## Uppgift
 
-<ul class="fa-ul fa-border exercise-info">
-  <li><i class="fa-li fa fa-github"></i><a href="https://github.com/1dv024/exercise-repeatable-quotes">https://github.com/1dv024/exercise-repeatable-quotes</a></li>
-</ul>
+[Repeterbara citat](https://coursepress.gitbook.io/1dv024/ovningsuppgifter/del-2/repeterbara-citat)
 
-### Diskussion
+## Diskussion
 
-#### QuoteViewer.cs
+### QuoteViewer.cs
 
 ```c#
 using System;
@@ -55,7 +53,7 @@ namespace RepeatableQuotes
 }
 ```
 
-Klassdiagrammets första avsnitt ("_Fields_") ger det två privata fältet `_count` samt dess typ (`int`). I avsnittet "_Properties_" i klassdiagrammet hittar du två publika egenskaper. Egenskapen `Count` kapslar in fältet `_count` (helt i onödan då ingen validering sker). Egenskapen `Quote`, av typen `string`, är em s.k. auto-implmenterad egenskap som inte kapslar in något synligt fält (det läggs faktiskt till ett fält av kompilatorn).
+Klassdiagrammets första avsnitt ("_Fields_") ger det privata fältet `_count` samt dess typ (`int`). I avsnittet "_Properties_" i klassdiagrammet hittar du två publika egenskaper. Egenskapen `Count` kapslar in fältet `_count` (helt i onödan då ingen validering sker). Egenskapen `Quote`, av typen `string`, är em s.k. auto-implementerad egenskap som inte kapslar in något synligt fält (det läggs faktiskt till ett fält av kompilatorn).
 
 I avsnittet "_Methods_" finns de två konstruktorerna som ska implementeras. Observera att konstruktorer saknar returvärde och måste ha samma namn som klassen. Det som skiljer konstruktorerna åt är deras signaturer, d.v.s. namnet på konstruktorn och dess parameterlista. (Titta gärna i metoden `Main` hur respektive konstruktor används.)
 

@@ -133,10 +133,10 @@ namespace PersonalCheckDigit
         ///     string. If format is null or an empty string, the format specifier, 'Y', is used.
         ///     <list type="bullet">
         ///         <item>
-        ///             Getting a string where the birtdate is specified by eight digits. To do this, use the "Y" format specifier.
+        ///             Getting a string where the birthdate is specified by eight digits. To do this, use the "Y" format specifier.
         ///         </item>
         ///         <item>
-        ///             Getting a string where the birtdate is specified by six digits. To do this, use the "y" format specifier.
+        ///             Getting a string where the birthdate is specified by six digits. To do this, use the "y" format specifier.
         ///         </item>
         ///         <item>
         ///             Getting a string where the personal identity number is unformatted. To do this, use the "g" format

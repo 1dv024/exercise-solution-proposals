@@ -1,14 +1,12 @@
-# <i class="fa fa-flask"></i> Lösningsförslag
+# Lösningsförslag
 
-## <i class="fa fa-laptop"></i> Tröstrika banken
+## Uppgift
 
-<ul class="fa-ul fa-border exercise-info">
-  <li><i class="fa-li fa fa-github"></i><a href="https://github.com/1dv024/exercise-consoling-bank">https://github.com/1dv024/exercise-consolingbank</a></li>
-</ul>
+[Tröstrika banken](https://coursepress.gitbook.io/1dv024/ovningsuppgifter/del-2/trostrika-banken)
 
-### Diskussion
+## Diskussion
 
-#### Account.cs
+### Account.cs
 
 ```c#
 using System;
@@ -34,7 +32,7 @@ namespace ConsolingBank
         /// Initializes a new instance of the Account class.
         /// </summary>
         /// <param name="name">The name of the account holder.</param>
-        /// <param name="accountNUmber">The number identifing the account.</param>
+        /// <param name="accountNUmber">The number identifying the account.</param>
         /// <param name="balance">The balance of the account.</param>
         public Account(string name, int accountNUmber, double balance)
         {
@@ -44,7 +42,7 @@ namespace ConsolingBank
         }
 
         /// <summary>
-        /// The number identifing the account.
+        /// The number identifying the account.
         /// </summary>
         public int AccountNumber { get; }
 
@@ -88,7 +86,7 @@ namespace ConsolingBank
         }
 
         /// <summary>
-        /// Whithdraws money from the account and returning the new balance.
+        /// Withdraws money from the account and returning the new balance.
         /// </summary>
         /// <param name="amount">The amount of money to withdraw.</param>
         /// <param name="fee">The withdrawal fee.</param>
@@ -124,10 +122,10 @@ Fälten deklareras lämpligen som privata så dess värden inte kan manipuleras.
 
 Den enda konstruktorn initierar objektet med de värden som önskas. Lägg märke till att konstruktorn använder sig av egenskapen `Balance` för att initiera det privata fältet `_balance`. Varför? Därför att det inte ska vara möjligt att skapa ett `Account`-objekt med ett negativt tillgodohavande. Man vill ju inte börja med att vara skyldig banken pengar. Eller?
 
-Då ett `Account`-objekt väl har blivit skapat ska kontonumret och namnet inte kunna ändras, därför har egenskaperna `AccountNumber` och `Name` endast en `get`-metod. Egenskeprna blir då vad som kallas _"immutable"_, d.v.s. det går bara att tilldela dem ett värde i konstruktorn och de går bara därefter att läsa.
+Då ett `Account`-objekt väl har blivit skapat ska kontonumret och namnet inte kunna ändras, därför har egenskaperna `AccountNumber` och `Name` endast en `get`-metod. Egenskaperna blir då vad som kallas _"immutable"_, d.v.s. det går bara att tilldela dem ett värde i konstruktorn och de går bara därefter att läsa.
 
 Egenskapen `Balance` har en publik `get`-metod som returnerar tillgodohavandet. `set`-metoden är däremot privat och används av klassen ”internt” för att ändra värdet som det privata fältet `_balance` har.
 
 Metoderna `Deposit`, `Withdraw` och `AddInterest` påverkar alla på något sätt det privata fältet `_balance`. Diverse kontroller görs för att säkerställa att `_balance` inte blir negativt.
 
-Metoden `DisplayAmount` presenterar en textbeskrivning av ett `Account`-objekts status. (Lämpligare hade det varit att överskugga metoden `ToString`, men aktuell lösning fungerar tillfredställande i denna uppgift.)
+Metoden `DisplayAmount` presenterar en textbeskrivning av ett `Account`-objekts status. (Lämpligare hade det varit att överskugga metoden `ToString`, men aktuell lösning fungerar tillfredsställande i denna uppgift.)
