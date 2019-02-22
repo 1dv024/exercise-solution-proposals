@@ -20,7 +20,7 @@ namespace CoolTemperatureConverter
             Console.Write("Ange temperaturen i grader Fahrenheit: ");
             fahrenheit = double.Parse(Console.ReadLine());
 
-            // Convert from Fahrenheit to Celcius.
+            // Convert from Fahrenheit to Celsius.
             celsius = (fahrenheit - 32) * 5 / 9;
 
             // Display the result.

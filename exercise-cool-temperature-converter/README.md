@@ -1,36 +1,38 @@
-# <i class="fa fa-flask"></i> Lösningsförslag 
+# Lösningsförslag
 
-## <i class="fa fa-laptop"></i> !Häftig temperaturomvandling
-<ul class="fa-ul fa-border exercise-info">
-<li><i class="fa-li fa fa-github"></i><a href="https://github.com/1dv024/exercise-cool-temperature-converter">https://github.com/1dv024/exercise-cool-temperature-converter</a></li>
-</ul>
+## Uppgift
 
-### Diskussion
+[!Häftig temperaturomvandling](https://coursepress.gitbook.io/1dv024/ovningsuppgifter/del-1/haftig-temperaturomvandling)
+
+## Diskussion
 
 ```c#
 using System;
 
 namespace CoolTemperatureConverter
 {
+    /// <summary>
+    /// Represents the main place where the program starts the execution.
+    /// </summary>
     class Program
     {
         /// <summary>
-        /// Startpunkt för applikationen.
+        /// The starting point of the application.
         /// </summary>
         static void Main()
         {
-            // Definiera variabler.
+            // Declare variables.
             double celsius;
             double fahrenheit;
 
-            // Hämta temperatur i Fahrenheit från användaren.
+            // Get the temperature in Fahrenheit from the user.
             Console.Write("Ange temperaturen i grader Fahrenheit: ");
             fahrenheit = double.Parse(Console.ReadLine());
 
-            // Konvertera Fahrenheit till Celcius.
+            // Convert from Fahrenheit to Celsius.
             celsius = (fahrenheit - 32) * 5 / 9;
 
-            // Presentera resultatet.
+            // Display the result.
             Console.WriteLine($"Temperaturen {fahrenheit} °F motsvarar {celsius:f1} °C.");
         }
     }
@@ -51,4 +53,3 @@ Det beräknade värdet avrundas sedan till en decimals onoggrannhet i samband me
 Ange temperaturen i grader Fahrenheit: 73
 Temperaturen 73 ºF motsvarar 22,8 ºC.
 ```
-
