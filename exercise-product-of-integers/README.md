@@ -1,12 +1,10 @@
-# <i class="fa fa-flask"></i> Lösningsförslag
+# Lösningsförslag
 
-## <i class="fa fa-laptop"></i> Produkten av heltal
+## Uppgift
 
-<ul class="fa-ul fa-border exercise-info">
-  <li><i class="fa-li fa fa-github"></i><a href="https://github.com/1dv024/exercise-product-of-integers">https://github.com/1dv024/exercise-product-of-integers</a></li>
-</ul>
+[Produkten av heltal](https://coursepress.gitbook.io/1dv024/ovningsuppgifter/del-1/produkten-av-heltal)
 
-### Diskussion
+## Diskussion
 
 ```c#
 using System;

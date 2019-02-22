@@ -1,48 +1,51 @@
 # Lösningsförslag
 
-## Fundamental endimensionell array
+## Uppgift
 
-<ul>
-  <li><a href="https://github.com/1dv024/exercise-fundamental-one-dimentional-array">https://github.com/1dv024/exercise-fundamental-one-dimentional-array</a></li>
-</ul>
+[Fundamental endimensionell array](https://coursepress.gitbook.io/1dv024/ovningsuppgifter/del-1/fundamental-endimensionell-array)
 
-### Diskussion
+## Diskussion
 
 ```c#
 using System;
 
 namespace FundamentalOneDimensionalArray
 {
+    /// <summary>
+    /// Represents the main place where the program starts the execution.
+    /// </summary>
     class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// The starting point of the application.
+        /// </summary>
+        static void Main()
         {
-            // Skapa och initiera en array med fem heltal.
+            // Create and initiate an array of five integers.
             int[] values = { 10, 23, 5, 1, 15 };
 
-            // Loopa igenom arrayen...
+            // Iterate through the array...
             for (int i = 0; i < values.Length; ++i)
             {
-                // ...och skrive ut varje elements värde.
+                // ...and display each element's value.
                 Console.Write($"{values[i]} ");
             }
             Console.WriteLine();
 
-            // Hämta ut det andra värdet, dubblera det
-            // och tilldela det andra elementet det nya värdet.
+            // Get the value of the second element, double it
+            // and assign the new value to the second element.
             int temp = values[1];
             temp = temp * 2;
             values[1] = temp;
 
-            // Samma resultat som ovan men enklare(?).
-            // OBS! Det sista elementet har index 4 då
-            //      arrayen innhåller fem element.
+            // The same as above, apart for the index of the element,
+            // but much more simple, or?
             values[4] *= 2;
 
-            // Loopa igenom arrayen...
+            // Iterate through the array...
             foreach (int value in values)
             {
-                // ...och skrive ut varje elements värde.
+                // ...and display each element's value.
                 Console.Write($"{value} ");
             }
             Console.WriteLine();

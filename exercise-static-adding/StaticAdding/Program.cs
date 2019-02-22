@@ -12,15 +12,15 @@ namespace StaticAdding
         /// </summary>
         static void Main(string[] args)
         {
-            // Wich static method is called?
+            // Which static method is called?
             int sum = MyMath.Add(123, 456);
             Console.WriteLine($"Summan är: {sum}\n");
 
-            // Wich static method is called?
+            // Which static method is called?
             double anotherSum = MyMath.Add(9.87, 6.54);
             Console.WriteLine($"Summan är: {anotherSum}\n");
 
-            // Wich static method is called?
+            // Which static method is called?
             Console.WriteLine("Summan är: {0}\n", MyMath.Add(123, 6.54));
         }
     }
